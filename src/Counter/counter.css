@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #111;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.circle {
+  width: 15rem;
+  height: 15rem;
+  background: #fff;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 6rem;
+  position: relative;
+}
+
+.btn {
+  display: grid;
+  place-content: center;
+  width: 8rem;
+  height: 8rem;
+  background: #555;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 4rem;
+  position: absolute;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #888;
+  color: #000;
+}
+
+.subtract {
+  left: -1.5em;
+}
+
+.add {
+  right: -1.5em;
+}
+
+.reset {
+  bottom: -3.3em;
+  font-size: 2rem;
+}
+
+.change {
+  margin-top: 5em;
+  font-size: 3rem;
+}
